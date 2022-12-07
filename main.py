@@ -57,15 +57,6 @@ def ex4(number):
         number = number // 2
     print(numberb)
 
-def ex5(number):
-    list = []
-    for i in range(number):
-        if i == 0 or i == 1:
-            list.append(i)
-        else:
-            list.append((i-1)+(i-2))
-    print('LIST: ',list)
-
 def fib(number):
     list = []
     list3 = []
